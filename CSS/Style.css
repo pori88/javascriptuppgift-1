@@ -1,0 +1,148 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vh;
+}
+
+
+.navtext {
+    position: relative;
+    margin: auto;
+    color: rgb(35, 97, 212);
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.navtext2 {
+    color: rgb(35, 97, 212);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bodyy {
+    /* background-color: #9b59b6; */
+    background-color: #483D8B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+}
+
+
+.header {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.form {
+    padding: 30px 40px;
+}
+
+.form-controll {
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.form-controll label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-controll input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.form-controll i {
+    position: absolute;
+    top: 42px;
+    right: 10px;
+    visibility: hidden;
+
+}
+
+.form-controll small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form button {
+    background-color: #483D8B;
+    border: 2px solid #8e44ad;
+    color: #ffffff;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-controll.success input {
+    border-color: #2ecc71;
+}
+.form-controll.error input {
+    border-color: #e74c3c;
+}
+
+.form-controll.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+}
+.form-controll.error i.fa-exclamation {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-controll.error small {
+    visibility: visible;
+    color: #e74c3c;
+}
+
+.form-controll.success small {
+    color: #2ecc71;
+    visibility: visible;
+}
+
+/* .listan {
+    display: block;
+    visibility: hidden;
+} */
+
+/* 
+.ID {
+
+} */
+
